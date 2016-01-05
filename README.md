@@ -1,11 +1,12 @@
-# shinzui/iterm
-Just a bunch of dotfiles.
+# shinzui/iterm2
+
+My iterm2 preferences.
 
 ## Install
 Clone and symlink or install with [ellipsis][ellipsis]:
 
 ```
-$ ellipsis install shinzui/iterm
+$ ellipsis install shinzui/iterm2
 ```
 
 [ellipsis]: http://ellipsis.sh

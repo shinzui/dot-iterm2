@@ -3,13 +3,13 @@
 # shinzui/iterm2 ellipsis package
 
 pkg.link() {
-  #don't link any files
-  echo ""
+  fs.link_file iterm
 }
 
 # The following hooks can be defined to customize behavior of your package:
 pkg.install() {
-  defaults import com.googlecode.iterm2 "$PKG_PATH/com.googlecode.iterm2.plist"
+  defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/.iterm"
+  defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 }
 
 # pkg.push() {

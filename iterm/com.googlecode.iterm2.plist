@@ -8,6 +8,8 @@
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
 	<integer>1</integer>
+	<key>AppleWindowTabbingMode</key>
+	<string>manual</string>
 	<key>Custom Color Presets</key>
 	<dict>
 		<key>Oceanic-Dark</key>
@@ -1296,11 +1298,13 @@
 	<key>HotKeyTogglesWindow</key>
 	<true/>
 	<key>Hotkey</key>
-	<true/>
+	<false/>
 	<key>HotkeyChar</key>
-	<integer>47</integer>
+	<integer>0</integer>
 	<key>HotkeyCode</key>
-	<integer>44</integer>
+	<integer>0</integer>
+	<key>HotkeyMigratedFromSingleToMulti</key>
+	<true/>
 	<key>HotkeyModifiers</key>
 	<integer>1048840</integer>
 	<key>LoadPrefsFromCustomFolder</key>
@@ -1342,16 +1346,20 @@
 	<true/>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>1482 324 891 634 0 0 2560 1440 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>970 787 620 392 0 0 2560 1440 </string>
+	<key>NSWindow Frame SessionsPreferences</key>
+	<string>269 139 606 456 0 0 2560 1440 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>944 257 918 495 0 0 2560 1440 </string>
+	<string>944 283 1018 447 0 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 1007 2560 433 0 0 2560 1440 </string>
+	<string>0 0 2560 1440 0 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>594 967 570 352 0 0 2560 1440 </string>
+	<string>0 1088 570 352 0 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>1132 876 1340 452 0 0 2560 1440 </string>
+	<string>0 9 2558 1431 0 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>1082 65 1347 452 0 0 2560 1440 </string>
+	<string>1111 286 1018 560 0 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
 	<string>1464 656 969 741 0 0 2560 1440 </string>
 	<key>NeverWarnAboutShortLivedSessions_23AE231D-9BCD-4300-AE6C-D61C4BD241D5</key>
@@ -2339,8 +2347,28 @@
 			</dict>
 			<key>Guid</key>
 			<string>5EE8654C-5FFE-47CF-A07E-707CC6A6A858</string>
+			<key>Has Hotkey</key>
+			<true/>
 			<key>Horizontal Spacing</key>
 			<real>1</real>
+			<key>HotKey Characters</key>
+			<string>/</string>
+			<key>HotKey Characters Ignoring Modifiers</key>
+			<string>/</string>
+			<key>HotKey Key Code</key>
+			<integer>44</integer>
+			<key>HotKey Modifier Flags</key>
+			<integer>1048840</integer>
+			<key>HotKey Window Animates</key>
+			<true/>
+			<key>HotKey Window AutoHides</key>
+			<true/>
+			<key>HotKey Window Dock Click Action</key>
+			<integer>0</integer>
+			<key>HotKey Window Floats</key>
+			<false/>
+			<key>HotKey Window Reopens On Activation</key>
+			<false/>
 			<key>Idle Code</key>
 			<integer>0</integer>
 			<key>Jobs to Ignore</key>
@@ -4091,15 +4119,44 @@
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>C36FC986-8E08-40CF-9AFA-16C665E341BE</string>
+	<key>NoSyncLastTipTime</key>
+	<real>523724299.33465201</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
+	<key>NoSyncPermissionToShowTip</key>
+	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>521320229.09611702</real>
+	<key>NoSyncTipsDisabled</key>
+	<true/>
+	<key>NoSyncTipsToNotShow</key>
+	<array>
+		<string>000</string>
+		<string>0000</string>
+		<string>0001</string>
+		<string>0002</string>
+		<string>0003</string>
+		<string>0004</string>
+		<string>0005</string>
+		<string>0006</string>
+		<string>0007</string>
+		<string>0008</string>
+		<string>0009</string>
+		<string>0010</string>
+		<string>0011</string>
+		<string>0012</string>
+		<string>0013</string>
+		<string>0014</string>
+		<string>0015</string>
+		<string>0016</string>
+	</array>
 	<key>OpenArrangementAtStartup</key>
 	<false/>
 	<key>OpenNoWindowsAtStartup</key>
+	<false/>
+	<key>PerformDNSLookups</key>
 	<false/>
 	<key>PointerActions</key>
 	<dict>
@@ -4145,7 +4202,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-07-10T20:47:50Z</date>
+	<date>2017-09-26T18:24:45Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
@@ -4159,6 +4216,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.15</string>
+	<string>3.1.2</string>
 </dict>
 </plist>
